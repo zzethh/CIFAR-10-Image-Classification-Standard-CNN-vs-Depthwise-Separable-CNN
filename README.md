@@ -22,7 +22,7 @@ CIFAR-10 is downloaded automatically to `./data/` on first run (official train/t
 
 **Local:**
 ```bash
-python3 q2_final.py
+python3 code.py
 ```
 
 **Slurm:**
@@ -38,14 +38,3 @@ Logs go to `slurm_q2_<jobid>.out`.
   - `Standard_CNN_confusion_matrix.png`, `Separable_CNN_confusion_matrix.png`  
   - `efficiency_comparison.png` (parameters and MACs)
 
-- **report/**  
-  LaTeX source: `report/main.tex`. Build the PDF from the project root:
-  ```bash
-  pdflatex report/main.tex
-  pdflatex report/main.tex
-  ```
-  Output: `report/main.pdf`. Figures are loaded from `visualizations/`.
-
-## Assignment compliance
-
-See `ASSIGNMENT_COMPLIANCE.md` for a requirement checklist and where each is implemented.
